@@ -11,7 +11,7 @@ public class Manager extends Employee{
 
     @Override
     public String getDetails() {
-        return "Name: " + getName() + ", Salary: " + getSalary().toString() + ", Department: " + department;
+        return super.getDetails() + ", Department: " + department;
     }
 
 }

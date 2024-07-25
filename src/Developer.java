@@ -9,7 +9,7 @@ public class Developer extends Employee {
     public String getProgrammingLanguage() { return programmingLanguage; }
 
     public String getDetails() {
-        return "Name: " + getName() + ", Salary: " + getSalary().toString() + ", Programming language: " + programmingLanguage;
+        return super.getDetails() + ", Programming language: " + programmingLanguage;
     }
 
 }
