@@ -8,6 +8,7 @@ public class Developer extends Employee {
     }
     public String getProgrammingLanguage() { return programmingLanguage; }
 
+    @Override
     public String getDetails() {
         return super.getDetails() + ", Programming language: " + programmingLanguage;
     }
